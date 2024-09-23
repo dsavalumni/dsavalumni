@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Alumni Association</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       header {
+            background-color: #333;
+            color: white;
+            padding: 60px 20px;
+            background: url('heading-background.jpg') no-repeat center center; /* Background image in the header */
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            position: relative;
+        }
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 95, 115, 0.5); /* Dark overlay for better text visibility */
+            z-index: 1;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+           <!-- <img src="dsav_logo_alumni.jpg" alt="School Logo"> -->
+        </div>
+        <h1>DEBAGRAM S A VIDYAPITH ALUMNI ASSOCIATION</h1>
+        
+    </header>
+
+    <nav>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="members.html">Members</a></li>
+            <li><a href="membership.html">Membership Registration</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="login.html">Administrative Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <div class="profile-image">
+            <div class="circle">
+                <img src="dsav_logo_alumni.jpg" alt="School Image">
+            </div>
+        </div>
+        <div class="main-text">
+            <h2>Connecting Alumni, Building Community</h2>
+            <p style="text-align: justify;">
+                Our alumni association is dedicated to uniting former students, strengthening connections, and giving back to our school community. Join us to stay connected with old friends, build new relationships with fellow alumni, and contribute to the growth and legacy of our alma mater.
+            </p>
+        </div>
+
+        <!-- Notice Board Section -->
+        <div class="notice-board">
+            <h2>Upcoming Events</h2>
+            <div class="notices">
+                <ul>
+                    <li><a href="event-details-education-career.html">Lecture and Interactive Session on "Education and Career" - August 10, 2024</a></li>
+                    <!-- Add more events here -->
+                    <!-- Example:
+                    <li><a href="event-details-other-event.html">Event Title - Date</a></li>
+                    -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 School Alumni Association. All rights reserved.</p>
+    </footer>
+
+   
+    </script>
+</body>
+</html>
