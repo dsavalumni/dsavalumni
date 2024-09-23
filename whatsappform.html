@@ -6,39 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Data Submission Form</title>
     <style>
-        /* Reset and Base Styles */
-        * {
-            box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 16px;
-        }
-
-        body {
-            background-color: #f4f7f8;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        /* Container Styling */
-        .container {
-            background-color: #ffffff;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            width: 500px;
-        }
-
-        /* Heading Styling */
-        .container h1 {
-            text-align: center;
-            margin-bottom: 30px;
-            color: #333333;
-        }
-
+       
         /* Form Group Styling */
         .form-group {
             margin-bottom: 20px;
@@ -93,20 +61,24 @@
         }
 
         /* Responsive Design */
-        @media (max-width: 600px) {
+       @media (max-width: 480px) {
             .container {
                 width: 90%;
-                padding: 20px;
+                padding: 15px; /* Adjust padding for smaller screens */
             }
 
             .container h1 {
-                font-size: 24px;
+                font-size: 20px; /* Decrease font size for headings */
             }
 
             .submit-btn {
-                font-size: 16px;
+                font-size: 14px; /* Decrease font size for the button */
+                padding: 8px; /* Optional: adjust padding for the button */
             }
+
+   
         }
+
 
         /* Alert Styling */
         .alert {
