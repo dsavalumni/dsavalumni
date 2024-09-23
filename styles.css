@@ -186,7 +186,7 @@
             text-decoration: underline;
         }
         .notice-board .notices ul {
-                animation: scroll-up 10s linear infinite;
+                animation: scroll-up 15s linear infinite;
         }
 
          @media (max-width: 480px) {
